@@ -1,9 +1,6 @@
 {
     "type": "object",
-    "required": [
-        "name",
-        "image"
-    ],
+    "required": ["name", "image"],
     "properties": {
         "name": {
             "type": "string",
