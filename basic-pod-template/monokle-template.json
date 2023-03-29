@@ -1,0 +1,24 @@
+{
+    "name": "Template plugins",
+    "id": "com.github.alvin-nayak.plugin.templates.basic-pod-template",
+    "author": "Alvin Nayak",
+    "version": "1.0.0",
+    "description": "Creates a pod for a specified image",
+    "repository": "https://github.com/Alve2000/monokle-templates-plugin",
+    "type": "vanilla",
+    "forms": [
+        {
+            "name": "Pod Settings",
+            "description": "Specify the setting for your pod",
+            "schema": "form-schema.json",
+            "uiSchema": "form-ui-schema.json"
+        }
+    ],
+    "manifests": [
+        {
+            "filePath": "template.yaml"
+        }
+    ],
+    "resultMessage": "Pod resource created successfully !",
+    "helpUrl": "https://github.com/Alve2000/monokle-templates-plugin"
+}
