@@ -5,11 +5,11 @@
   "author": "Alvin Nayak",
   "repository": "https://github.com/Alve2000/monokle-templates-plugin",
   "monoklePlugin": {
-    "modules": [
-       {
+    "id": "com.github.alvin-nayak.plugin.templates",
+    "helpUrl": "https://github.com/Alve2000/monokle-templates-plugin",
+    "modules": [{
          "type": "template",
          "path": "basic-pod-template"
-       }
-    ]
+       }]
   }
 }
